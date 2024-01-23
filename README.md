@@ -29,6 +29,9 @@ FidoNet reader/writer via different web-based interfaces like GoldEd, wFido etc.
 - [v] auto-scale & zoom
 
 ### Screenshots
+<div align="center">
+
+<img width="125" height="250" src="./docs/Screenshot_2024-01-23-11-46-00-313_coldcat.wf.jpg" alt="Screenshot_01" title="Screenshot_01">
 
 https://github.com/reverrs/FidoCat/blob/main/docs/Screenshot_2024-01-23-11-46-00-313_coldcat.wf.jpg
 
