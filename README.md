@@ -30,9 +30,15 @@ FidoNet reader/writer via different web-based interfaces like GoldEd, wFido etc.
 
 ### Screenshots
 
-### Completion
+https://github.com/reverrs/FidoCat/blob/main/docs/Screenshot_2024-01-23-11-46-00-313_coldcat.wf.jpg
 
-## How Does It Work
+https://github.com/reverrs/FidoCat/blob/main/docs/Screenshot_2024-01-23-11-46-27-403_coldcat.wf.jpg
+
+https://github.com/reverrs/FidoCat/blob/main/docs/Screenshot_2024-01-23-11-47-17-727_coldcat.wf.jpg
+
+https://github.com/reverrs/FidoCat/blob/main/docs/Screenshot_2024-01-23-11-48-29-909_coldcat.wf.jpg
+
+https://github.com/reverrs/FidoCat/blob/main/docs/Screenshot_2024-01-23-11-48-44-513_coldcat.wf.jpg
 
 ### Known problems [fixed]
 - [ ] hangs of toasts
