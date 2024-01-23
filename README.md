@@ -21,9 +21,9 @@ FidoNet reader/writer via different web-based interfaces like GoldEd, wFido etc.
 
 ## Features:
 
-- [v] any interfaces in one
-- [v] swipe management
-- [v] auto-scale & zoom
+- [x] any interfaces in one
+- [x] swipe management
+- [x] auto-scale & zoom
 
 ### Screenshots
 <div align="center">
