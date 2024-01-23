@@ -18,9 +18,6 @@ FidoNet reader/writer via different web-based interfaces like GoldEd, wFido etc.
 ![Stars](https://shields.io/github/stars/reverrs/fidocat?style=for-the-badge)
 ![Watchers](https://shields.io/github/watchers/reverrs/fidocat?style=for-the-badge)
 ![Contributors](https://shields.io/github/contributors/reverrs/fidocat?style=for-the-badge)
-![Commit-activity](https://shields.io/github/commit-activity/w/reverrs/fidocat?style=for-the-badge)
-![Last-commit](https://shields.io/github/last-commit/reverrs/fidicat?style=for-the-badge)
-</div>
 
 ## Features:
 
@@ -46,7 +43,7 @@ FidoNet reader/writer via different web-based interfaces like GoldEd, wFido etc.
 
 ## Requirements:
 
-- Android v8-13+
+Android v8-13+
 
 ### Regards
 
