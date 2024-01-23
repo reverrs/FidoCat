@@ -33,15 +33,13 @@ FidoNet reader/writer via different web-based interfaces like GoldEd, wFido etc.
 
 <img width="125" height="250" src="./docs/Screenshot_2024-01-23-11-46-00-313_coldcat.wf.jpg" alt="Screenshot_01" title="Screenshot_01">
 
-https://github.com/reverrs/FidoCat/blob/main/docs/Screenshot_2024-01-23-11-46-00-313_coldcat.wf.jpg
+<img width="125" height="250" src="./docs/Screenshot_2024-01-23-11-46-27-403_coldcat.wf.jpg" alt="Screenshot_02" title="Screenshot_02">
 
-https://github.com/reverrs/FidoCat/blob/main/docs/Screenshot_2024-01-23-11-46-27-403_coldcat.wf.jpg
+<img width="125" height="250" src="./docs/Screenshot_2024-01-23-11-47-17-727_coldcat.wf.jpg" alt="Screenshot_03" title="Screenshot_03">
 
-https://github.com/reverrs/FidoCat/blob/main/docs/Screenshot_2024-01-23-11-47-17-727_coldcat.wf.jpg
+<img width="125" height="250" src="./docs/Screenshot_2024-01-23-11-48-29-909_coldcat.wf.jpg" alt="Screenshot_04" title="Screenshot_04">
 
-https://github.com/reverrs/FidoCat/blob/main/docs/Screenshot_2024-01-23-11-48-29-909_coldcat.wf.jpg
-
-https://github.com/reverrs/FidoCat/blob/main/docs/Screenshot_2024-01-23-11-48-44-513_coldcat.wf.jpg
+<img width="125" height="250" src="./docs/Screenshot_2024-01-23-11-48-44-513_coldcat.wf.jpg" alt="Screenshot_05" title="Screenshot_05">
 
 ### Known problems [fixed]
 - [ ] hangs of toasts
