@@ -39,7 +39,7 @@ FidoNet reader/writer via different web-based interfaces like GoldEd, wFido etc.
 
 <img width="125" height="250" src="./docs/Screenshot_2024-01-23-11-48-29-909_coldcat.wf.jpg" alt="Screenshot_04" title="Screenshot_04">
 
-<img width="125" height="250" src="./docs/Screenshot_2024-01-23-11-48-44-513_coldcat.wf.jpg" alt="Screenshot_05" title="Screenshot_05">
+<img width="250" height="125" src="./docs/Screenshot_2024-01-23-11-48-44-513_coldcat.wf.jpg" alt="Screenshot_05" title="Screenshot_05">
 
 ### Known problems [fixed]
 - [ ] hangs of toasts
