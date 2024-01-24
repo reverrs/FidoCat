@@ -24,6 +24,7 @@ FidoNet reader/writer via different web-based interfaces like GoldEd, wFido etc.
 - [x] any Fido-interfaces in one
 - [x] swipe management
 - [x] auto-scale & zoom
+- [x] Русский язык
 
 ### Screenshots
 <div align="center">
