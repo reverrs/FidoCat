@@ -1,5 +1,5 @@
 # FidoCat
-FidoNet reader/writer via different web-based interfaces like GoldEd, wFido etc.
+FidoNet reader/writer for Android via different web-based interfaces like GoldEd, wFido etc.
 
 <div align="center">
 
