@@ -49,4 +49,9 @@ Android v8-13+
 ### Regards
 
 Nil A, 2:5015/46, for idea
+Kostantin Kuzov, 2:5019/400, for GoldEd+
+Anton Ryzhkov, 2:5030/1081, for GoldEd hosting
+Dmitri Kamenski, 2:5023/24, for wFido hosting
+Yuri Myakotin, 2:5020/4441, for custom web-interface
+And all the fido-people, who sent bug reports.
 
