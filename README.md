@@ -42,7 +42,7 @@ FidoNet reader/writer via different web-based interfaces like GoldEd, wFido etc.
 ### Known problems [fixed]
 - [ ] hangs of toasts
 
-## Requirements:
+### Requirements
 Android v8-13+
 
 ### Regards
