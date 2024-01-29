@@ -1,0 +1,17 @@
+29-01-24 (3) beta:
++ JavaScript activation;
++ Secret service mode ;)
++ Bug catching service (checking for network availability, connections and application crashes);
++ Swipe down update;
++ A crutch to a broken menu in a custom web interface (while the screen is raised so that this menu is not visible).
+
+22-01-24 (2) alfa:
++ Refarming JDK11;
++ Increased min.Android version 8+;
++ Landscape view;
++ Scaling;
++ Auto-scale adjustment;
+~ Minor interface improvements.
+
+18-01-24 v1.0 alfa (0):
++ The first alpha version.
