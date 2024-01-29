@@ -1,0 +1,214 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/_coordinator"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.google.android.material.appbar.AppBarLayout
+		android:id="@+id/_app_bar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+			android:id="@+id/swiperefreshlayout2"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/LayError"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/Status"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="5dp"
+					android:padding="8dp"
+					android:background="#FFEB3B"
+					android:gravity="center_horizontal"
+					android:text="Состояние"
+					android:textSize="16sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<LinearLayout
+					android:id="@+id/LnrNetErr"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="#F44336"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/NetErr"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:gravity="center_horizontal"
+						android:text="Нет подключения к сети"
+						android:textSize="16sp"
+						android:textStyle="bold"
+						android:textColor="#FFEB3B"
+						android:singleLine="true" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/LnrConn"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/Conn"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="#F44336"
+						android:gravity="center_horizontal"
+						android:text="Успешное подключение к сети"
+						android:textSize="16sp"
+						android:textStyle="bold"
+						android:textColor="#FFEB3B" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/LnrSrvErr"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/SrvErr"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="#F44336"
+						android:gravity="center_horizontal"
+						android:text="Проблемы подключения к серверу"
+						android:textSize="16sp"
+						android:textStyle="bold"
+						android:textColor="#FFEB3B" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/LnrAppErr"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/AppErr"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:background="#F44336"
+						android:gravity="center_horizontal"
+						android:text="Ошибка приложения"
+						android:textSize="16sp"
+						android:textStyle="bold"
+						android:textColor="#FFEB3B" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear3"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+					<LinearLayout
+						android:id="@+id/LnrErrMsg"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/ErrMsgName"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Сообщение об ошибке:"
+							android:textSize="14sp"
+							android:textColor="#000000" />
+						<TextView
+							android:id="@+id/ErrMsg"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Ошибка"
+							android:textSize="12sp"
+							android:textColor="#000000" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/LnrTag"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+					<TextView
+						android:id="@+id/TagName"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Тэг:"
+						android:textSize="14sp"
+						android:textColor="#000000" />
+					<TextView
+						android:id="@+id/Tag"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Тэг"
+						android:textSize="12sp"
+						android:textColor="#000000" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/LnrEdit"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="5dp"
+					android:orientation="horizontal">
+					<EditText
+						android:id="@+id/Edit"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:textSize="12sp"
+						android:textColor="#000000"
+						android:hint="Введите адрес сервера (http://server.ru...)"
+						android:textColorHint="#607D8B"
+						android:singleLine="true" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/LnrSrvResp"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+					<TextView
+						android:id="@+id/SrvRespName"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Ответ сервера:"
+						android:textSize="12sp"
+						android:textColor="#000000" />
+					<ScrollView
+						android:id="@+id/vscroll1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+						<TextView
+							android:id="@+id/SrvResp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Данные ответа сервера"
+							android:textSize="12sp"
+							android:textColor="#000000" />
+					</ScrollView>
+				</LinearLayout>
+			</LinearLayout>
+		</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+	</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
