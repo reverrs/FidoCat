@@ -1,0 +1,129 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ScrollView
+		android:id="@+id/vscroll1"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:background="#9C27B0"
+		android:layout_gravity="left">
+		<LinearLayout
+			android:id="@+id/LnrDrawer"
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#9C27B0"
+			android:gravity="top"
+			android:orientation="vertical">
+			<ImageView
+				android:id="@+id/ImgVDrawer"
+				android:layout_width="match_parent"
+				android:layout_height="150dp"
+				android:paddingLeft="8dp"
+				android:paddingTop="8dp"
+				android:paddingRight="8dp"
+				android:src="@drawable/fidocat"
+				android:scaleType="fitCenter" />
+			<TextView
+				android:id="@+id/TxtVDiv"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:textSize="10sp"
+				android:textColor="#000000"
+				android:singleLine="true" />
+			<TextView
+				android:id="@+id/BtnWfido"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="wFido"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+			<TextView
+				android:id="@+id/BtnWeb"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Web"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+			<TextView
+				android:id="@+id/BtnGoldEd"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="GoldEd"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+			<TextView
+				android:id="@+id/TxtDrwDiv1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:textSize="10sp"
+				android:textColor="#000000"
+				android:enabled="false" />
+			<TextView
+				android:id="@+id/TxtBtnHlp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Помощь"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+			<TextView
+				android:id="@+id/TxtBtnAbt"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="8dp"
+				android:paddingTop="8dp"
+				android:paddingRight="3dp"
+				android:paddingBottom="8dp"
+				android:text="О приложении"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF" />
+			<TextView
+				android:id="@+id/TxtDrwDiv2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:textSize="10sp"
+				android:textColor="#000000"
+				android:enabled="false" />
+			<com.google.android.material.button.MaterialButton
+				android:id="@+id/BtnExit"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="Выход"
+				android:textSize="18sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:layout_gravity="center_horizontal"
+				android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+				app:backgroundTint="@color/colorPrimary"
+				app:cornerRadius="8dp"
+				style="@style/Widget.MaterialComponents.Button" />
+			<TextView
+				android:id="@+id/TxtDrvDiv3"
+				android:layout_width="match_parent"
+				android:layout_height="30dp"
+				android:layout_marginLeft="150dp"
+				android:layout_marginTop="50dp"
+				android:padding="8dp"
+				android:textSize="10sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
