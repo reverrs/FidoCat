@@ -39,9 +39,6 @@ FidoNet reader/writer for Android via different web-based interfaces like GoldEd
 
 <img width="250" height="125" src="./docs/Screenshot_2024-01-23-11-48-44-513_coldcat.wf.jpg" alt="Screenshot_05" title="Screenshot_05">
 
-### Known problems [fixed]
-- [x] hangs of toasts
-
 ### Requirements
 Android v8-13+
 
@@ -58,3 +55,5 @@ Yuri Myakotin, 2:5020/4441, for custom web-interface
 
 And all the fido-people, who sent bug reports.
 
+### Known problems [fixed]
+- [x] hangs of toasts
