@@ -46,7 +46,7 @@ FidoNet reader/writer for Android via different web-based interfaces like GoldEd
 Android v8-13+
 
 ### Regards
-Nil A, 2:5015/46, for idea
+Nil Alexandrov, 2:5015/46, for idea
 
 Kostantin Kuzov, 2:5019/400, for GoldEd+
 
