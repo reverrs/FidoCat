@@ -40,12 +40,12 @@ FidoNet reader/writer for Android via different web-based interfaces like GoldEd
 <img width="250" height="125" src="./docs/Screenshot_2024-01-23-11-48-44-513_coldcat.wf.jpg" alt="Screenshot_05" title="Screenshot_05">
 
 ### Requirements
-Android v8-13+
+Android v8-18+
 
 ### Regards
 Nil Alexandrov, 2:5015/46, for idea
 
-Kostantin Kuzov, 2:5019/400, for GoldEd+
+Kostantin Kuzov, 2:5019/400, for GoldEd+ and another one custom web-interface
 
 Anton Ryzhkov, 2:5030/1081, for GoldEd hosting
 
@@ -57,3 +57,4 @@ And all the fido-people, who sent bug reports.
 
 ### Known problems [fixed]
 - [x] hangs of toasts
+- [ ] some resource refreshes cause the app to freeze
