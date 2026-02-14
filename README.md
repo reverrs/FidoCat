@@ -29,7 +29,7 @@ FidoNet reader/writer for Android via different web-based interfaces like GoldEd
 ### Screenshots
 <div align="center">
 
-<img width="125" height="250" src="./docs/Screenshot_2024-01-23-11-46-00-313_coldcat.wf.jpg" alt="Screenshot_01" title="Screenshot_01">
+<img width="125" height="250" src="./docs/Screenshot_2026-02-14-14-41-07-831_coldcat.wf.jpg" alt="Screenshot_01" title="Screenshot_01">
 
 <img width="125" height="250" src="./docs/Screenshot_2024-01-23-11-46-27-403_coldcat.wf.jpg" alt="Screenshot_02" title="Screenshot_02">
 
